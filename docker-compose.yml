@@ -1,0 +1,6 @@
+web:
+  image: bitnami/nginx:latest
+  volumes:
+    - templates:/app
+  ports:
+   - "8080:8080"
